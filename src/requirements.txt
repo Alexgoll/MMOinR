@@ -1,34 +1,25 @@
-!pip install highway-env
 
-import gymnasium as gym
-import highway_env
+highway_env
 
-import scipy.linalg
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import numpy as np
-from collections import namedtuple
+scipy.linalg
+torch
+torch.nn
+torch.nn.functional
+numpy 
 
-import matplotlib
-import matplotlib.pyplot as plt
+ matplotlib
+matplotlib.pyplot 
 %matplotlib inline
-from tqdm.notebook import trange
+tqdm.notebook 
 
-from pathlib import Path
-import sys
-from tqdm.notebook import trange
-!pip install tensorboardx gym pyvirtualdisplay
-!apt-get install -y xvfb ffmpeg
+pathlib 
+sys
+
+tensorboardx gym pyvirtualdisplay
+-y xvfb ffmpeg
 !git clone https://github.com/Farama-Foundation/HighwayEnv.git 2> /dev/null
 sys.path.insert(0, '/content/HighwayEnv/scripts/')
-from utils import record_videos, show_videos
-import time
-import matplotlib.pyplot as plt
-import numpy as np
-import torch
-import pandas as pd
-from tqdm import trange
-import gymnasium as gum
-import torch.nn.functional
-import torch
+utils 
+time
+tqdm 
+gymnasium
